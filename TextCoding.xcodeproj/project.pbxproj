@@ -1,0 +1,557 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4F5350B81F76107600176929 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F5350B71F76107600176929 /* main.m */; };
+		4F5350BB1F76107600176929 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F5350BA1F76107600176929 /* AppDelegate.m */; };
+		4F5350BE1F76107600176929 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F5350BD1F76107600176929 /* ViewController.m */; };
+		4F5350C11F76107600176929 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4F5350BF1F76107600176929 /* Main.storyboard */; };
+		4F5350C31F76107600176929 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4F5350C21F76107600176929 /* Assets.xcassets */; };
+		4F5350C61F76107600176929 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4F5350C41F76107600176929 /* LaunchScreen.storyboard */; };
+		4F5351101F76108F00176929 /* Big5Freq.tab in Resources */ = {isa = PBXBuildFile; fileRef = 4F5350CE1F76108F00176929 /* Big5Freq.tab */; };
+		4F5351111F76108F00176929 /* CharDistribution.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4F5350CF1F76108F00176929 /* CharDistribution.cpp */; };
+		4F5351121F76108F00176929 /* CMakeLists.txt in Resources */ = {isa = PBXBuildFile; fileRef = 4F5350D11F76108F00176929 /* CMakeLists.txt */; };
+		4F5351131F76108F00176929 /* EUCKRFreq.tab in Resources */ = {isa = PBXBuildFile; fileRef = 4F5350D21F76108F00176929 /* EUCKRFreq.tab */; };
+		4F5351141F76108F00176929 /* EUCTWFreq.tab in Resources */ = {isa = PBXBuildFile; fileRef = 4F5350D31F76108F00176929 /* EUCTWFreq.tab */; };
+		4F5351151F76108F00176929 /* GB2312Freq.tab in Resources */ = {isa = PBXBuildFile; fileRef = 4F5350D41F76108F00176929 /* GB2312Freq.tab */; };
+		4F5351161F76108F00176929 /* JISFreq.tab in Resources */ = {isa = PBXBuildFile; fileRef = 4F5350D51F76108F00176929 /* JISFreq.tab */; };
+		4F5351171F76108F00176929 /* JpCntx.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4F5350D61F76108F00176929 /* JpCntx.cpp */; };
+		4F5351181F76108F00176929 /* LangArabicModel.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4F5350D91F76108F00176929 /* LangArabicModel.cpp */; };
+		4F5351191F76108F00176929 /* LangBulgarianModel.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4F5350DA1F76108F00176929 /* LangBulgarianModel.cpp */; };
+		4F53511A1F76108F00176929 /* LangDanishModel.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4F5350DB1F76108F00176929 /* LangDanishModel.cpp */; };
+		4F53511B1F76108F00176929 /* LangEsperantoModel.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4F5350DC1F76108F00176929 /* LangEsperantoModel.cpp */; };
+		4F53511C1F76108F00176929 /* LangFrenchModel.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4F5350DD1F76108F00176929 /* LangFrenchModel.cpp */; };
+		4F53511D1F76108F00176929 /* LangGermanModel.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4F5350DE1F76108F00176929 /* LangGermanModel.cpp */; };
+		4F53511E1F76108F00176929 /* LangGreekModel.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4F5350DF1F76108F00176929 /* LangGreekModel.cpp */; };
+		4F53511F1F76108F00176929 /* LangHebrewModel.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4F5350E01F76108F00176929 /* LangHebrewModel.cpp */; };
+		4F5351201F76108F00176929 /* LangHungarianModel.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4F5350E11F76108F00176929 /* LangHungarianModel.cpp */; };
+		4F5351211F76108F00176929 /* LangRussianModel.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4F5350E21F76108F00176929 /* LangRussianModel.cpp */; };
+		4F5351221F76108F00176929 /* LangSpanishModel.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4F5350E31F76108F00176929 /* LangSpanishModel.cpp */; };
+		4F5351231F76108F00176929 /* LangThaiModel.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4F5350E41F76108F00176929 /* LangThaiModel.cpp */; };
+		4F5351241F76108F00176929 /* LangTurkishModel.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4F5350E51F76108F00176929 /* LangTurkishModel.cpp */; };
+		4F5351251F76108F00176929 /* LangVietnameseModel.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4F5350E61F76108F00176929 /* LangVietnameseModel.cpp */; };
+		4F5351261F76108F00176929 /* nsBig5Prober.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4F5350E71F76108F00176929 /* nsBig5Prober.cpp */; };
+		4F5351271F76108F00176929 /* nsCharSetProber.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4F5350E91F76108F00176929 /* nsCharSetProber.cpp */; };
+		4F5351281F76108F00176929 /* nsEscCharsetProber.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4F5350ED1F76108F00176929 /* nsEscCharsetProber.cpp */; };
+		4F5351291F76108F00176929 /* nsEscSM.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4F5350EF1F76108F00176929 /* nsEscSM.cpp */; };
+		4F53512A1F76108F00176929 /* nsEUCJPProber.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4F5350F01F76108F00176929 /* nsEUCJPProber.cpp */; };
+		4F53512B1F76108F00176929 /* nsEUCKRProber.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4F5350F21F76108F00176929 /* nsEUCKRProber.cpp */; };
+		4F53512C1F76108F00176929 /* nsEUCTWProber.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4F5350F41F76108F00176929 /* nsEUCTWProber.cpp */; };
+		4F53512D1F76108F00176929 /* nsGB2312Prober.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4F5350F61F76108F00176929 /* nsGB2312Prober.cpp */; };
+		4F53512E1F76108F00176929 /* nsHebrewProber.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4F5350F81F76108F00176929 /* nsHebrewProber.cpp */; };
+		4F53512F1F76108F00176929 /* nsLatin1Prober.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4F5350FA1F76108F00176929 /* nsLatin1Prober.cpp */; };
+		4F5351301F76108F00176929 /* nsMBCSGroupProber.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4F5350FC1F76108F00176929 /* nsMBCSGroupProber.cpp */; };
+		4F5351311F76108F00176929 /* nsMBCSSM.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4F5350FE1F76108F00176929 /* nsMBCSSM.cpp */; };
+		4F5351321F76108F00176929 /* nsSBCharSetProber.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4F5351001F76108F00176929 /* nsSBCharSetProber.cpp */; };
+		4F5351331F76108F00176929 /* nsSBCSGroupProber.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4F5351021F76108F00176929 /* nsSBCSGroupProber.cpp */; };
+		4F5351341F76108F00176929 /* nsSJISProber.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4F5351041F76108F00176929 /* nsSJISProber.cpp */; };
+		4F5351351F76108F00176929 /* nsUniversalDetector.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4F5351061F76108F00176929 /* nsUniversalDetector.cpp */; };
+		4F5351361F76108F00176929 /* nsUTF8Prober.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4F5351081F76108F00176929 /* nsUTF8Prober.cpp */; };
+		4F5351371F76108F00176929 /* symbols.cmake in Resources */ = {isa = PBXBuildFile; fileRef = 4F53510B1F76108F00176929 /* symbols.cmake */; };
+		4F5351381F76108F00176929 /* uchardet.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4F53510D1F76108F00176929 /* uchardet.cpp */; };
+		4F5351391F76108F00176929 /* TextCoding.txt in Resources */ = {isa = PBXBuildFile; fileRef = 4F53510F1F76108F00176929 /* TextCoding.txt */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		4F5350B31F76107600176929 /* TextCoding.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TextCoding.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4F5350B71F76107600176929 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		4F5350B91F76107600176929 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		4F5350BA1F76107600176929 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		4F5350BC1F76107600176929 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		4F5350BD1F76107600176929 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		4F5350C01F76107600176929 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4F5350C21F76107600176929 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4F5350C51F76107600176929 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4F5350C71F76107600176929 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4F5350CE1F76108F00176929 /* Big5Freq.tab */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Big5Freq.tab; sourceTree = "<group>"; };
+		4F5350CF1F76108F00176929 /* CharDistribution.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = CharDistribution.cpp; sourceTree = "<group>"; };
+		4F5350D01F76108F00176929 /* CharDistribution.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CharDistribution.h; sourceTree = "<group>"; };
+		4F5350D11F76108F00176929 /* CMakeLists.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = CMakeLists.txt; sourceTree = "<group>"; };
+		4F5350D21F76108F00176929 /* EUCKRFreq.tab */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = EUCKRFreq.tab; sourceTree = "<group>"; };
+		4F5350D31F76108F00176929 /* EUCTWFreq.tab */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = EUCTWFreq.tab; sourceTree = "<group>"; };
+		4F5350D41F76108F00176929 /* GB2312Freq.tab */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = GB2312Freq.tab; sourceTree = "<group>"; };
+		4F5350D51F76108F00176929 /* JISFreq.tab */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = JISFreq.tab; sourceTree = "<group>"; };
+		4F5350D61F76108F00176929 /* JpCntx.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = JpCntx.cpp; sourceTree = "<group>"; };
+		4F5350D71F76108F00176929 /* JpCntx.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JpCntx.h; sourceTree = "<group>"; };
+		4F5350D91F76108F00176929 /* LangArabicModel.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = LangArabicModel.cpp; sourceTree = "<group>"; };
+		4F5350DA1F76108F00176929 /* LangBulgarianModel.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = LangBulgarianModel.cpp; sourceTree = "<group>"; };
+		4F5350DB1F76108F00176929 /* LangDanishModel.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = LangDanishModel.cpp; sourceTree = "<group>"; };
+		4F5350DC1F76108F00176929 /* LangEsperantoModel.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = LangEsperantoModel.cpp; sourceTree = "<group>"; };
+		4F5350DD1F76108F00176929 /* LangFrenchModel.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = LangFrenchModel.cpp; sourceTree = "<group>"; };
+		4F5350DE1F76108F00176929 /* LangGermanModel.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = LangGermanModel.cpp; sourceTree = "<group>"; };
+		4F5350DF1F76108F00176929 /* LangGreekModel.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = LangGreekModel.cpp; sourceTree = "<group>"; };
+		4F5350E01F76108F00176929 /* LangHebrewModel.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = LangHebrewModel.cpp; sourceTree = "<group>"; };
+		4F5350E11F76108F00176929 /* LangHungarianModel.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = LangHungarianModel.cpp; sourceTree = "<group>"; };
+		4F5350E21F76108F00176929 /* LangRussianModel.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = LangRussianModel.cpp; sourceTree = "<group>"; };
+		4F5350E31F76108F00176929 /* LangSpanishModel.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = LangSpanishModel.cpp; sourceTree = "<group>"; };
+		4F5350E41F76108F00176929 /* LangThaiModel.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = LangThaiModel.cpp; sourceTree = "<group>"; };
+		4F5350E51F76108F00176929 /* LangTurkishModel.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = LangTurkishModel.cpp; sourceTree = "<group>"; };
+		4F5350E61F76108F00176929 /* LangVietnameseModel.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = LangVietnameseModel.cpp; sourceTree = "<group>"; };
+		4F5350E71F76108F00176929 /* nsBig5Prober.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = nsBig5Prober.cpp; sourceTree = "<group>"; };
+		4F5350E81F76108F00176929 /* nsBig5Prober.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = nsBig5Prober.h; sourceTree = "<group>"; };
+		4F5350E91F76108F00176929 /* nsCharSetProber.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = nsCharSetProber.cpp; sourceTree = "<group>"; };
+		4F5350EA1F76108F00176929 /* nsCharSetProber.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = nsCharSetProber.h; sourceTree = "<group>"; };
+		4F5350EB1F76108F00176929 /* nsCodingStateMachine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = nsCodingStateMachine.h; sourceTree = "<group>"; };
+		4F5350EC1F76108F00176929 /* nscore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = nscore.h; sourceTree = "<group>"; };
+		4F5350ED1F76108F00176929 /* nsEscCharsetProber.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = nsEscCharsetProber.cpp; sourceTree = "<group>"; };
+		4F5350EE1F76108F00176929 /* nsEscCharsetProber.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = nsEscCharsetProber.h; sourceTree = "<group>"; };
+		4F5350EF1F76108F00176929 /* nsEscSM.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = nsEscSM.cpp; sourceTree = "<group>"; };
+		4F5350F01F76108F00176929 /* nsEUCJPProber.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = nsEUCJPProber.cpp; sourceTree = "<group>"; };
+		4F5350F11F76108F00176929 /* nsEUCJPProber.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = nsEUCJPProber.h; sourceTree = "<group>"; };
+		4F5350F21F76108F00176929 /* nsEUCKRProber.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = nsEUCKRProber.cpp; sourceTree = "<group>"; };
+		4F5350F31F76108F00176929 /* nsEUCKRProber.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = nsEUCKRProber.h; sourceTree = "<group>"; };
+		4F5350F41F76108F00176929 /* nsEUCTWProber.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = nsEUCTWProber.cpp; sourceTree = "<group>"; };
+		4F5350F51F76108F00176929 /* nsEUCTWProber.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = nsEUCTWProber.h; sourceTree = "<group>"; };
+		4F5350F61F76108F00176929 /* nsGB2312Prober.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = nsGB2312Prober.cpp; sourceTree = "<group>"; };
+		4F5350F71F76108F00176929 /* nsGB2312Prober.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = nsGB2312Prober.h; sourceTree = "<group>"; };
+		4F5350F81F76108F00176929 /* nsHebrewProber.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = nsHebrewProber.cpp; sourceTree = "<group>"; };
+		4F5350F91F76108F00176929 /* nsHebrewProber.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = nsHebrewProber.h; sourceTree = "<group>"; };
+		4F5350FA1F76108F00176929 /* nsLatin1Prober.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = nsLatin1Prober.cpp; sourceTree = "<group>"; };
+		4F5350FB1F76108F00176929 /* nsLatin1Prober.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = nsLatin1Prober.h; sourceTree = "<group>"; };
+		4F5350FC1F76108F00176929 /* nsMBCSGroupProber.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = nsMBCSGroupProber.cpp; sourceTree = "<group>"; };
+		4F5350FD1F76108F00176929 /* nsMBCSGroupProber.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = nsMBCSGroupProber.h; sourceTree = "<group>"; };
+		4F5350FE1F76108F00176929 /* nsMBCSSM.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = nsMBCSSM.cpp; sourceTree = "<group>"; };
+		4F5350FF1F76108F00176929 /* nsPkgInt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = nsPkgInt.h; sourceTree = "<group>"; };
+		4F5351001F76108F00176929 /* nsSBCharSetProber.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = nsSBCharSetProber.cpp; sourceTree = "<group>"; };
+		4F5351011F76108F00176929 /* nsSBCharSetProber.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = nsSBCharSetProber.h; sourceTree = "<group>"; };
+		4F5351021F76108F00176929 /* nsSBCSGroupProber.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = nsSBCSGroupProber.cpp; sourceTree = "<group>"; };
+		4F5351031F76108F00176929 /* nsSBCSGroupProber.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = nsSBCSGroupProber.h; sourceTree = "<group>"; };
+		4F5351041F76108F00176929 /* nsSJISProber.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = nsSJISProber.cpp; sourceTree = "<group>"; };
+		4F5351051F76108F00176929 /* nsSJISProber.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = nsSJISProber.h; sourceTree = "<group>"; };
+		4F5351061F76108F00176929 /* nsUniversalDetector.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = nsUniversalDetector.cpp; sourceTree = "<group>"; };
+		4F5351071F76108F00176929 /* nsUniversalDetector.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = nsUniversalDetector.h; sourceTree = "<group>"; };
+		4F5351081F76108F00176929 /* nsUTF8Prober.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = nsUTF8Prober.cpp; sourceTree = "<group>"; };
+		4F5351091F76108F00176929 /* nsUTF8Prober.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = nsUTF8Prober.h; sourceTree = "<group>"; };
+		4F53510A1F76108F00176929 /* prmem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = prmem.h; sourceTree = "<group>"; };
+		4F53510B1F76108F00176929 /* symbols.cmake */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = symbols.cmake; sourceTree = "<group>"; };
+		4F53510D1F76108F00176929 /* uchardet.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = uchardet.cpp; sourceTree = "<group>"; };
+		4F53510E1F76108F00176929 /* uchardet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = uchardet.h; sourceTree = "<group>"; };
+		4F53510F1F76108F00176929 /* TextCoding.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = TextCoding.txt; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4F5350B01F76107600176929 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4F5350AA1F76107600176929 = {
+			isa = PBXGroup;
+			children = (
+				4F5350B51F76107600176929 /* TextCoding */,
+				4F5350B41F76107600176929 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4F5350B41F76107600176929 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4F5350B31F76107600176929 /* TextCoding.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4F5350B51F76107600176929 /* TextCoding */ = {
+			isa = PBXGroup;
+			children = (
+				4F5350B91F76107600176929 /* AppDelegate.h */,
+				4F5350BA1F76107600176929 /* AppDelegate.m */,
+				4F5350BC1F76107600176929 /* ViewController.h */,
+				4F5350BD1F76107600176929 /* ViewController.m */,
+				4F5350CD1F76108E00176929 /* src */,
+				4F53510F1F76108F00176929 /* TextCoding.txt */,
+				4F5350BF1F76107600176929 /* Main.storyboard */,
+				4F5350C21F76107600176929 /* Assets.xcassets */,
+				4F5350C41F76107600176929 /* LaunchScreen.storyboard */,
+				4F5350C71F76107600176929 /* Info.plist */,
+				4F5350B61F76107600176929 /* Supporting Files */,
+			);
+			path = TextCoding;
+			sourceTree = "<group>";
+		};
+		4F5350B61F76107600176929 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4F5350B71F76107600176929 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		4F5350CD1F76108E00176929 /* src */ = {
+			isa = PBXGroup;
+			children = (
+				4F5350CE1F76108F00176929 /* Big5Freq.tab */,
+				4F5350CF1F76108F00176929 /* CharDistribution.cpp */,
+				4F5350D01F76108F00176929 /* CharDistribution.h */,
+				4F5350D11F76108F00176929 /* CMakeLists.txt */,
+				4F5350D21F76108F00176929 /* EUCKRFreq.tab */,
+				4F5350D31F76108F00176929 /* EUCTWFreq.tab */,
+				4F5350D41F76108F00176929 /* GB2312Freq.tab */,
+				4F5350D51F76108F00176929 /* JISFreq.tab */,
+				4F5350D61F76108F00176929 /* JpCntx.cpp */,
+				4F5350D71F76108F00176929 /* JpCntx.h */,
+				4F5350D81F76108F00176929 /* LangModels */,
+				4F5350E71F76108F00176929 /* nsBig5Prober.cpp */,
+				4F5350E81F76108F00176929 /* nsBig5Prober.h */,
+				4F5350E91F76108F00176929 /* nsCharSetProber.cpp */,
+				4F5350EA1F76108F00176929 /* nsCharSetProber.h */,
+				4F5350EB1F76108F00176929 /* nsCodingStateMachine.h */,
+				4F5350EC1F76108F00176929 /* nscore.h */,
+				4F5350ED1F76108F00176929 /* nsEscCharsetProber.cpp */,
+				4F5350EE1F76108F00176929 /* nsEscCharsetProber.h */,
+				4F5350EF1F76108F00176929 /* nsEscSM.cpp */,
+				4F5350F01F76108F00176929 /* nsEUCJPProber.cpp */,
+				4F5350F11F76108F00176929 /* nsEUCJPProber.h */,
+				4F5350F21F76108F00176929 /* nsEUCKRProber.cpp */,
+				4F5350F31F76108F00176929 /* nsEUCKRProber.h */,
+				4F5350F41F76108F00176929 /* nsEUCTWProber.cpp */,
+				4F5350F51F76108F00176929 /* nsEUCTWProber.h */,
+				4F5350F61F76108F00176929 /* nsGB2312Prober.cpp */,
+				4F5350F71F76108F00176929 /* nsGB2312Prober.h */,
+				4F5350F81F76108F00176929 /* nsHebrewProber.cpp */,
+				4F5350F91F76108F00176929 /* nsHebrewProber.h */,
+				4F5350FA1F76108F00176929 /* nsLatin1Prober.cpp */,
+				4F5350FB1F76108F00176929 /* nsLatin1Prober.h */,
+				4F5350FC1F76108F00176929 /* nsMBCSGroupProber.cpp */,
+				4F5350FD1F76108F00176929 /* nsMBCSGroupProber.h */,
+				4F5350FE1F76108F00176929 /* nsMBCSSM.cpp */,
+				4F5350FF1F76108F00176929 /* nsPkgInt.h */,
+				4F5351001F76108F00176929 /* nsSBCharSetProber.cpp */,
+				4F5351011F76108F00176929 /* nsSBCharSetProber.h */,
+				4F5351021F76108F00176929 /* nsSBCSGroupProber.cpp */,
+				4F5351031F76108F00176929 /* nsSBCSGroupProber.h */,
+				4F5351041F76108F00176929 /* nsSJISProber.cpp */,
+				4F5351051F76108F00176929 /* nsSJISProber.h */,
+				4F5351061F76108F00176929 /* nsUniversalDetector.cpp */,
+				4F5351071F76108F00176929 /* nsUniversalDetector.h */,
+				4F5351081F76108F00176929 /* nsUTF8Prober.cpp */,
+				4F5351091F76108F00176929 /* nsUTF8Prober.h */,
+				4F53510A1F76108F00176929 /* prmem.h */,
+				4F53510B1F76108F00176929 /* symbols.cmake */,
+				4F53510C1F76108F00176929 /* tools */,
+				4F53510D1F76108F00176929 /* uchardet.cpp */,
+				4F53510E1F76108F00176929 /* uchardet.h */,
+			);
+			path = src;
+			sourceTree = "<group>";
+		};
+		4F5350D81F76108F00176929 /* LangModels */ = {
+			isa = PBXGroup;
+			children = (
+				4F5350D91F76108F00176929 /* LangArabicModel.cpp */,
+				4F5350DA1F76108F00176929 /* LangBulgarianModel.cpp */,
+				4F5350DB1F76108F00176929 /* LangDanishModel.cpp */,
+				4F5350DC1F76108F00176929 /* LangEsperantoModel.cpp */,
+				4F5350DD1F76108F00176929 /* LangFrenchModel.cpp */,
+				4F5350DE1F76108F00176929 /* LangGermanModel.cpp */,
+				4F5350DF1F76108F00176929 /* LangGreekModel.cpp */,
+				4F5350E01F76108F00176929 /* LangHebrewModel.cpp */,
+				4F5350E11F76108F00176929 /* LangHungarianModel.cpp */,
+				4F5350E21F76108F00176929 /* LangRussianModel.cpp */,
+				4F5350E31F76108F00176929 /* LangSpanishModel.cpp */,
+				4F5350E41F76108F00176929 /* LangThaiModel.cpp */,
+				4F5350E51F76108F00176929 /* LangTurkishModel.cpp */,
+				4F5350E61F76108F00176929 /* LangVietnameseModel.cpp */,
+			);
+			path = LangModels;
+			sourceTree = "<group>";
+		};
+		4F53510C1F76108F00176929 /* tools */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = tools;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4F5350B21F76107600176929 /* TextCoding */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4F5350CA1F76107600176929 /* Build configuration list for PBXNativeTarget "TextCoding" */;
+			buildPhases = (
+				4F5350AF1F76107600176929 /* Sources */,
+				4F5350B01F76107600176929 /* Frameworks */,
+				4F5350B11F76107600176929 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TextCoding;
+			productName = TextCoding;
+			productReference = 4F5350B31F76107600176929 /* TextCoding.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4F5350AB1F76107600176929 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = Decin;
+				TargetAttributes = {
+					4F5350B21F76107600176929 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = 5PFDM4WJW9;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 4F5350AE1F76107600176929 /* Build configuration list for PBXProject "TextCoding" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4F5350AA1F76107600176929;
+			productRefGroup = 4F5350B41F76107600176929 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4F5350B21F76107600176929 /* TextCoding */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4F5350B11F76107600176929 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4F5350C61F76107600176929 /* LaunchScreen.storyboard in Resources */,
+				4F5350C31F76107600176929 /* Assets.xcassets in Resources */,
+				4F5351151F76108F00176929 /* GB2312Freq.tab in Resources */,
+				4F5351141F76108F00176929 /* EUCTWFreq.tab in Resources */,
+				4F5351131F76108F00176929 /* EUCKRFreq.tab in Resources */,
+				4F5351161F76108F00176929 /* JISFreq.tab in Resources */,
+				4F5351101F76108F00176929 /* Big5Freq.tab in Resources */,
+				4F5351371F76108F00176929 /* symbols.cmake in Resources */,
+				4F5351391F76108F00176929 /* TextCoding.txt in Resources */,
+				4F5350C11F76107600176929 /* Main.storyboard in Resources */,
+				4F5351121F76108F00176929 /* CMakeLists.txt in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4F5350AF1F76107600176929 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4F53511E1F76108F00176929 /* LangGreekModel.cpp in Sources */,
+				4F53512C1F76108F00176929 /* nsEUCTWProber.cpp in Sources */,
+				4F5350BE1F76107600176929 /* ViewController.m in Sources */,
+				4F5350BB1F76107600176929 /* AppDelegate.m in Sources */,
+				4F53511B1F76108F00176929 /* LangEsperantoModel.cpp in Sources */,
+				4F5351311F76108F00176929 /* nsMBCSSM.cpp in Sources */,
+				4F53511C1F76108F00176929 /* LangFrenchModel.cpp in Sources */,
+				4F5351251F76108F00176929 /* LangVietnameseModel.cpp in Sources */,
+				4F53512E1F76108F00176929 /* nsHebrewProber.cpp in Sources */,
+				4F5351351F76108F00176929 /* nsUniversalDetector.cpp in Sources */,
+				4F5351271F76108F00176929 /* nsCharSetProber.cpp in Sources */,
+				4F5351171F76108F00176929 /* JpCntx.cpp in Sources */,
+				4F53512D1F76108F00176929 /* nsGB2312Prober.cpp in Sources */,
+				4F5351381F76108F00176929 /* uchardet.cpp in Sources */,
+				4F5351241F76108F00176929 /* LangTurkishModel.cpp in Sources */,
+				4F5351231F76108F00176929 /* LangThaiModel.cpp in Sources */,
+				4F5351331F76108F00176929 /* nsSBCSGroupProber.cpp in Sources */,
+				4F5351191F76108F00176929 /* LangBulgarianModel.cpp in Sources */,
+				4F5350B81F76107600176929 /* main.m in Sources */,
+				4F5351321F76108F00176929 /* nsSBCharSetProber.cpp in Sources */,
+				4F5351111F76108F00176929 /* CharDistribution.cpp in Sources */,
+				4F53511D1F76108F00176929 /* LangGermanModel.cpp in Sources */,
+				4F5351301F76108F00176929 /* nsMBCSGroupProber.cpp in Sources */,
+				4F53511A1F76108F00176929 /* LangDanishModel.cpp in Sources */,
+				4F5351361F76108F00176929 /* nsUTF8Prober.cpp in Sources */,
+				4F5351201F76108F00176929 /* LangHungarianModel.cpp in Sources */,
+				4F5351291F76108F00176929 /* nsEscSM.cpp in Sources */,
+				4F53512F1F76108F00176929 /* nsLatin1Prober.cpp in Sources */,
+				4F5351261F76108F00176929 /* nsBig5Prober.cpp in Sources */,
+				4F53512B1F76108F00176929 /* nsEUCKRProber.cpp in Sources */,
+				4F53511F1F76108F00176929 /* LangHebrewModel.cpp in Sources */,
+				4F5351181F76108F00176929 /* LangArabicModel.cpp in Sources */,
+				4F53512A1F76108F00176929 /* nsEUCJPProber.cpp in Sources */,
+				4F5351281F76108F00176929 /* nsEscCharsetProber.cpp in Sources */,
+				4F5351221F76108F00176929 /* LangSpanishModel.cpp in Sources */,
+				4F5351211F76108F00176929 /* LangRussianModel.cpp in Sources */,
+				4F5351341F76108F00176929 /* nsSJISProber.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		4F5350BF1F76107600176929 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4F5350C01F76107600176929 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4F5350C41F76107600176929 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4F5350C51F76107600176929 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4F5350C81F76107600176929 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4F5350C91F76107600176929 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4F5350CB1F76107600176929 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 5PFDM4WJW9;
+				INFOPLIST_FILE = TextCoding/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Decin.TextCoding;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		4F5350CC1F76107600176929 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 5PFDM4WJW9;
+				INFOPLIST_FILE = TextCoding/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Decin.TextCoding;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4F5350AE1F76107600176929 /* Build configuration list for PBXProject "TextCoding" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4F5350C81F76107600176929 /* Debug */,
+				4F5350C91F76107600176929 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4F5350CA1F76107600176929 /* Build configuration list for PBXNativeTarget "TextCoding" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4F5350CB1F76107600176929 /* Debug */,
+				4F5350CC1F76107600176929 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4F5350AB1F76107600176929 /* Project object */;
+}
